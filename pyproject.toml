@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "scraping-and-wordcloud"
+version = "0.1.0"
+description = ""
+authors = ["yusuke.shirai1 <yusuke.shirai1@persol.co.jp>"]
+readme = "README.md"
+packages = [{include = "scraping_and_wordcloud"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
